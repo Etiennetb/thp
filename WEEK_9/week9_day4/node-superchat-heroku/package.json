@@ -1,0 +1,19 @@
+{
+  "name": "super-chat",
+  "version": "0.1.0",
+  "dependencies": {
+    "ent": "~0.1.0",
+    "express": "3.3.8",
+    "socket.io": "1.2.1"
+  },
+  "author": "Angelino Capretti <angelino.capretti@email.com>",
+  "description": "Un super Chat temps réel avec socket.io",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
