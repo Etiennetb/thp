@@ -1,11 +1,16 @@
 {
     "name": "super-chat",
     "version": "0.1.0",
+    "main": "app.js",
+    "scripts": {
+    	"test": "echo \"Error :no test\" && exit 1",
+    	"start": "node app.js"
+    },
     "dependencies": {
         "express": "~3.3.4",
         "socket.io": "~1.2.1",
         "ent": "~0.1.0"
     },
-    "author": "Angelino Capretti <angelino.capretti@email.com>",
+    "author": "Angelino Capretti <angelino.capretti.1@ulaval.ca>",
     "description": "Un super Chat temps réel avec socket.io"
 }
